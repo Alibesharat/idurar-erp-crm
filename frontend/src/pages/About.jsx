@@ -7,23 +7,18 @@ const About = () => {
   return (
     <Result
       status="info"
-      title={'IDURAR'}
+      title={'AiCRM'}
       subTitle={translate('Do you need help on customize of this app')}
       extra={
         <>
           <p>
-            Website : <a href="https://www.idurarapp.com">www.idurarapp.com</a>{' '}
+            Website : <a href="https://www.idurarapp.com">https://iranexpedia.ir</a>{' '}
           </p>
-          <p>
-            GitHub :{' '}
-            <a href="https://github.com/idurar/idurar-erp-crm">
-              https://github.com/idurar/idurar-erp-crm
-            </a>
-          </p>
+          
           <Button
             type="primary"
             onClick={() => {
-              window.open(`https://www.idurarapp.com/contact-us/`);
+              window.open(`tel:+989120674032`);
             }}
           >
             {translate('Contact us')}
