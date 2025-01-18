@@ -4,10 +4,8 @@ import { Avatar, Popover, Button, Badge, Col, List } from 'antd';
 
 import { RocketOutlined } from '@ant-design/icons';
 
-import useLanguage from '@/locale/useLanguage';
 
 export default function UpgradeButton() {
-  const translate = useLanguage();
 
   return (
     <Badge count={1} size="small">
@@ -22,10 +20,10 @@ export default function UpgradeButton() {
         }}
         icon={<RocketOutlined />}
         onClick={() => {
-          window.open(`https://cloud.idurarapp.com`);
+          window.open(`/CopilotCrm`);
         }}
       >
-        {translate('Try Entreprise Version')}
+        کمک خلبان
       </Button>
     </Badge>
   );
